@@ -1,4 +1,4 @@
-# Linuxxx
+# Linux
 
 ## SSH
 
@@ -26,12 +26,7 @@ sudo systemctl start xrdp
 sudo apt install qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager
 sudo gpasswd -a $USER libvirt
 sudo systemctl status libvirtd
-
 ```
-
-## VNC SERVER
-
-## LINUX HOTSPOT
 
 ## GRUB PASSWORD
 
@@ -60,14 +55,17 @@ sudo update-grub
 ## GRUB BOOT time
 
 ```bash
-edit /etc/default/grub
+nano /etc/default/grub
 ```
-## Disable/enable boost (ubuntu ryzen)
+## disable/enable boost (ubuntu ryzen)
 ```bash
-edit /sys/devices/system/cpu/cpufreq/boost 0 or 1
+nano /sys/devices/system/cpu/cpufreq/boost #0 or 1
 ```
-## rgb keyboard control
+## omen rgb keyboard control
 https://github.com/ranisalt/hp-omen-linux-module.git
 ```bash
-https://github.com/ranisalt/hp-omen-linux-module.git
+sudo bash -c 'echo ffff99 > /sys/devices/platform/hp-wmi/rgb_zones/zone00'
 ```
+## VNC SERVER
+
+## LINUX HOTSPOT

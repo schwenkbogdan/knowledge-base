@@ -113,7 +113,7 @@ reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explore
 
 ## Беспроводной дисплей
 
-## двойное расширение файла (альтеративный)
+## двойное расширение файла (альтеративный поток)
 
 ```batch
 echo real pass - realexanple;-) secretPass.txt:realexample
