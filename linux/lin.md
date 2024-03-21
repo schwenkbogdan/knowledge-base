@@ -66,6 +66,13 @@ https://github.com/ranisalt/hp-omen-linux-module.git
 ```bash
 sudo bash -c 'echo ffff99 > /sys/devices/platform/hp-wmi/rgb_zones/zone00'
 ```
+## Жесты для тачпада (ubuntu)
+```bash
+sudo add-apt-repository ppa:touchegg/stable
+sudo apt update
+sudo apt install touchegg
+```
+
 ## VNC SERVER
 
 ## LINUX HOTSPOT
