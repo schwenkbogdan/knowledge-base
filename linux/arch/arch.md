@@ -48,6 +48,10 @@ sudo vim /etc/pacman.conf
 
 установка драйверов видеокарт
 
+xf86-video-amdgpu 
+mesa
+nvidia
+nvidia-utils nvidia-settings
 
 :: Repository extra
    1) amdvlk  2) nvidia-utils  3) vulkan-dzn
