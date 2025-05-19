@@ -46,4 +46,10 @@ apple-fonts 7zip
 
 sudo vim /etc/pacman.conf
 
+установка драйверов видеокарт
 
+
+:: Repository extra
+   1) amdvlk  2) nvidia-utils  3) vulkan-dzn
+   4) vulkan-gfxstream  5) vulkan-intel
+   6) vulkan-nouveau  7) vulkan-radeon                     8) vulkan-swrast  9) vulkan-virtio
