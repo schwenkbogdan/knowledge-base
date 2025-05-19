@@ -40,3 +40,10 @@ apple-fonts
 
 
  sudo pacman -S --needed greetd tuigreet seatd
+
+
+подключение репозиториев
+
+sudo vim /etc/pacman.conf
+
+
