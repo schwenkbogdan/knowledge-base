@@ -1,7 +1,12 @@
 
 # Базовые пакеты
 sudo pacman -Syu --noconfirm 
+##yay install
 
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/yay.git 
+cd yay
+makepkg -si
 
 hyprland xdg-desktop-portal-hyprland hyprctl hyprpicker hyprlock hyprcursor \
   xdg-desktop-portal-wlr xdg-desktop-portal
