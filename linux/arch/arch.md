@@ -1,4 +1,4 @@
-
+uwspm
 # Базовые пакеты
 sudo pacman -Syu --noconfirm 
 ##yay install
