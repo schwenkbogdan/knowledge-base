@@ -25,7 +25,7 @@ yay -S catppuccin-gtk-theme
 
  catppuccin-cursors-mocha
 Bibata-Modern-Ice
-apple-fonts
+apple-fonts 7zip
   | Пакет              | Назначение                                    |
 | ------------------ | --------------------------------------------- |
 | `thunar`           | файловый менеджер                             |
