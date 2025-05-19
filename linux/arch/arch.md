@@ -1,4 +1,6 @@
 uwspm
+
+
 # Базовые пакеты
 sudo pacman -Syu --noconfirm 
 ##yay install
@@ -18,10 +20,12 @@ hyprland xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils dbus hyprctl hyprpi
   firefox neovim git unzip noto-fonts noto-fonts-emoji
 
 
-##themes## qt5ct qt6ct kvantum-qt5 kvantum-qt6 lxappearance papirus-icon-theme
-yay -S catppuccin-gtk-theme catppuccin-cursors-mocha
+##themes## adwaita-qt adwaita-dark qt5ct qt6ct kvantum-qt5 kvantum-qt6 lxappearance papirus-icon-theme
+yay -S catppuccin-gtk-theme
 
-
+ catppuccin-cursors-mocha
+Bibata-Modern-Ice
+apple-fonts
   | Пакет              | Назначение                                    |
 | ------------------ | --------------------------------------------- |
 | `thunar`           | файловый менеджер                             |
