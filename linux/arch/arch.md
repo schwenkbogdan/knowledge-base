@@ -8,14 +8,19 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-hyprland xdg-desktop-portal-hyprland hyprctl hyprpicker hyprlock hyprcursor \
+hyprland xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils dbus hyprctl hyprpicker hyprlock hyprcursor hyprshot hyprpaper\
   xdg-desktop-portal-wlr xdg-desktop-portal
-  waybar hyprpaper mako wofi alacritty thunar thunar-volman tumbler gvfs gvfs-mtp \
-  pipewire wireplumber \
+  waybar mako wofi alacritty thunar thunar-volman tumbler gvfs gvfs-mtp brightnessctl network-manager-applet blueman-applet\
+  pipewire wireplumber wl-clipboard\
   polkit-gnome xdg-utils wl-clipboard cliphist \
-  gtk3 gnome-themes-extra gnome-keyring qt5-wayland qt6-wayland \
+  gnome-themes-extra gnome-keyring qt5-wayland qt6-wayland \
   noto-fonts ttf-jetbrains-mono ttf-font-awesome \
-  firefox neovim git unzip htop
+  firefox neovim git unzip noto-fonts noto-fonts-emoji
+
+
+##themes## qt5ct qt6ct kvantum-qt5 kvantum-qt6 lxappearance papirus-icon-theme
+yay -S catppuccin-gtk-theme catppuccin-cursors-mocha
+
 
   | Пакет              | Назначение                                    |
 | ------------------ | --------------------------------------------- |
