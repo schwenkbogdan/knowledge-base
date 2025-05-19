@@ -5,8 +5,8 @@ sudo pacman -Syu --noconfirm
 
 hyprland xdg-desktop-portal-hyprland hyprctl hyprpicker hyprlock hyprcursor \
   xdg-desktop-portal-wlr xdg-desktop-portal
-  waybar hyprpaper mako dmenu kitty thunar thunar-volman tumbler gvfs gvfs-mtp \
-  pipewire wireplumber pavucontrol \
+  waybar hyprpaper mako wofi alacritty thunar thunar-volman tumbler gvfs gvfs-mtp \
+  pipewire wireplumber \
   polkit-gnome xdg-utils wl-clipboard cliphist \
   gtk3 gnome-themes-extra gnome-keyring qt5-wayland qt6-wayland \
   noto-fonts ttf-jetbrains-mono ttf-font-awesome \
