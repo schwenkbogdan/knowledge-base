@@ -1,5 +1,20 @@
-uwspm
+hping3 -1 --fast 192.168.100.42
 
+uwspm
+watch -n 1 "cat /proc/cpuinfo | grep 'MHz'"
+
+ls -lhR /boot
+sbctl verify
+sudo sbctl sign-all
+bootctl update
+dracut --force --regenerate-all
+
+sudo sbctl sign /boot/EFI/Linux/linux-6.
+
+cat /proc/cmdline
+lsmod | grep amd_pstate
+
+sudo systemctl enable libvirtd
 
 # Базовые пакеты
 sudo pacman -Syu --noconfirm 
@@ -10,24 +25,24 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-hyprland xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils dbus hyprctl hyprpicker hyprlock hyprcursor hyprshot hyprpaper\
+hyprland xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils dbus-broker hyprctl hyprpicker hyprlock hyprcursor hyprshot hyprpaper\
   xdg-desktop-portal-wlr xdg-desktop-portal
   waybar mako wofi alacritty thunar thunar-volman tumbler gvfs gvfs-mtp brightnessctl network-manager-applet blueman-applet\
   pipewire wireplumber wl-clipboard\
   polkit-gnome xdg-utils wl-clipboard cliphist \
   gnome-themes-extra gnome-keyring qt5-wayland qt6-wayland \
-  noto-fonts ttf-jetbrains-mono ttf-font-awesome \
+  ttf-jetbrains-mono ttf-font-awesome \
   firefox neovim git unzip noto-fonts noto-fonts-emoji
 
 
 ##themes## adwaita-qt adwaita-dark qt5ct qt6ct kvantum-qt5 kvantum-qt6 lxappearance papirus-icon-theme
-yay -S catppuccin-gtk-theme
+yay -S catppuccin-gtk-theme papirus-icon-theme 
 
  catppuccin-cursors-mocha
 Bibata-Modern-Ice
 apple-fonts 7zip
   | Пакет              | Назначение                                    |
-| ------------------ | --------------------------------------------- |
+| ------------------ | --------------------------------------------- |Ё
 | `thunar`           | файловый менеджер                             |
 | `thunar-volman`    | автомонтирование флешек и дисков              |
 | `tumbler`          | генератор превью (для картинок, видео)        |

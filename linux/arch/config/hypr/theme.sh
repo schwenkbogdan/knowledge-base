@@ -1,8 +1,8 @@
 #!/bin/bash
 
 THEME='adw-gtk3-dark'
-ICONS='Papirus-Dark'
-FONT='JetBrainsMono Nerd Font 10'  # Добавлен размер шрифта
+ICONS='Papirus-Dark'z
+FONT='SH-Pro-Regular'  # Добавлен размер шрифта
 CURSOR='Bibata-Modern-Ice'
 
 SCHEMA='org.gnome.desktop.interface'
