@@ -145,6 +145,15 @@ atributes
 
 > Задать значение 2, после этого в настройках электропитания
 
+## Отключение PortableOperatingSystem
+
+```text
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PortableOperatingSystem
+```
+
+> Задать значение 0, после этого в настройках электропитания
+
+
 ## Распаковка драйверов из exe файла
 
 ```batch
