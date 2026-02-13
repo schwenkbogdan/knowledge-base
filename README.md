@@ -1,4 +1,4 @@
-# SystemConfSoft
+# SystemConfSoft.
 
 ## [Windows (настройка и проги)](/windows/win.md)
 
